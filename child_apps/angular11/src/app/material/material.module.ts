@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatListModule } from '@angular/material/list';
 
 import { MaterialRoutingModule } from './material-routing.module'
 import { MaterialComponent } from './material.component';
@@ -31,6 +32,13 @@ import { MaterialComponentDemoSidenavModule } from './components/sidenav/app-mat
 import { MaterialComponentDemoSlideToggleModule } from './components/slide-toggle/app-material-component-demo-slide-toggle.module';
 import { MaterialComponentDemoSliderModule } from './components/slider/app-material-component-demo-slider.module';
 import { MaterialComponentDemoSnackBarModule } from './components/snack-bar/app-material-component-demo-snack-bar.module';
+import { MaterialComponentDemoSortModule } from './components/sort/app-material-component-demo-sort.module';
+import { MaterialComponentDemoStepperModule } from './components/stepper/app-material-component-demo-stepper.module';
+import { MaterialComponentDemoTableModule } from './components/table/app-material-component-demo-table.module';
+import { MaterialComponentDemoTabsModule } from './components/tabs/app-material-component-demo-tabs.module';
+import { MaterialComponentDemoToolbarModule } from './components/toolbar/app-material-component-demo-toolbar.module';
+import { MaterialComponentDemoTooltipModule } from './components/tooltip/app-material-component-demo-tooltip.module';
+import { MaterialComponentDemoTreeModule } from './components/tree/app-material-component-demo-tree.module';
 
 @NgModule({
   declarations: [
@@ -39,6 +47,7 @@ import { MaterialComponentDemoSnackBarModule } from './components/snack-bar/app-
   imports: [
     CommonModule,
     MaterialRoutingModule,
+    MatListModule,
     MaterialComponentDemoAutocompleteModule,
     MaterialComponentDemoBadgeModule,
     MaterialComponentDemoBottomSheetModule,
@@ -67,6 +76,13 @@ import { MaterialComponentDemoSnackBarModule } from './components/snack-bar/app-
     MaterialComponentDemoSlideToggleModule,
     MaterialComponentDemoSliderModule,
     MaterialComponentDemoSnackBarModule,
+    MaterialComponentDemoSortModule,
+    MaterialComponentDemoStepperModule,
+    MaterialComponentDemoTableModule,
+    MaterialComponentDemoTabsModule,
+    MaterialComponentDemoToolbarModule,
+    MaterialComponentDemoTooltipModule,
+    MaterialComponentDemoTreeModule,
   ],
 })
 export class MaterialModule { }
